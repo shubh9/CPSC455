@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciplease</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="topnav">
+        <a href="/">Home</a>
+        <a class="active" href="/AddAReceipe.html">Add A Receipe</a>
+        <a href="/MeetTheAuthor.html">Meet The Author</a>
+    </nav>
+</body>
+<body>
+    <div class="add_rep">
+        <h1>Add Receipe</h1>
+    </div>
+    <form class="form" >
+        <div class="formBox">
+            <label for="title">Receipe Title</label>
+            <input type="text" id="title" placeholder="Filet Mignon in Mushroom Sauce"/>
+        </div>
+        <div class="formBox">
+            <label for="ingredients">Ingredients</label>
+            <textarea id="ingredients" placeholder="4 Tbsp unsalted butter, 2 Tbsp olive oil, ..."></textarea>
+        </div>
+        <div class="formBox">
+            <label for="instructions">Instructions</label>
+            <textarea id="instructions" placeholder="Step1: Place a large heavy-bottomed pan over med/high heat "></textarea>
+        </div>
+        <div class="formBox">
+            <button id="submitbtn">Publish your Masterpeice!</button>
+        </div>
+        <div class="formBox">
+            <button id="clearbtn">Whoops Start Again</button>
+        </div>
+    </form>
+    <!-- <div id="msg">
+        <pre></pre>
+    </div> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
