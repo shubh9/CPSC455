@@ -36,11 +36,11 @@ button.delete_card {
     width: 100%;
     padding: 75px 0px;
     background-color: #e3e3e3;
-  }
+    }
 
   .about img{
     height: auto;
-    width: 400px;
+    width: 40%;
     padding-right: 30px;
   }
 
@@ -58,7 +58,7 @@ button.delete_card {
 
   .about-text h1{
     color:#333333;
-    font-size: 80px;
+    font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 20px;
   }
